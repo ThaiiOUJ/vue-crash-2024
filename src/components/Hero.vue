@@ -1,3 +1,22 @@
+<script setup>
+import {defineProps} from'vue';
+
+// 组件传参数
+// 主标题
+defineProps({
+    title:{
+        type:String,
+        default:'Become a Vue Dev',
+    },
+// 副标题
+    subtitle:{
+        type:String,
+        default:'Find the Vue job that fits your skills and needs'
+    }
+
+})
+</script>
+
 <template>
     <section class="bg-green-700 py-20 mb-4">
       <div
@@ -17,21 +36,3 @@
     </section>
 </template>
 
-<script setup>
-import {defineProps} from'vue';
-
-// 组件传参数
-// 主标题
-defineProps({
-    title:{
-        type:String,
-        default:'Become a Vue Dev',
-    },
-// 副标题
-    subtitle:{
-        type:String,
-        default:'Find the Vue job that fits your skills and needs'
-    }
-
-})
-</script>

@@ -1,16 +1,13 @@
+<!-- 1级 -->
 <script setup>
-import Hero from './components/Hero.vue';
-import HomeCards from './components/HomeCards.vue';
 import Navbar from './components/Navbar.vue';
-import JobListings from '@/components/JobListings.vue';
-
+// 把配置好的路由导入到这里
+import { RouterView } from 'vue-router';
 </script>
 
 
 <template>
-<Navbar/>
-<Hero/>
-<HomeCards/> 
-<JobListings/>
+    <Navbar />
+    <RouterView />
 </template>
 

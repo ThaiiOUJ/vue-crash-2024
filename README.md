@@ -10,10 +10,10 @@
 
 - 创建项目
 
-  ：使用 Vite 创建 Vue 项目
+  ：创建 Vue 项目
 
   ```bash
-  npm init vite@latest vue-crash-2024 -- --template vue
+  npm init vue@latest vue-crash-2024 -- --template vue
   ```
 
 - **推荐开发环境**：使用 VSCode 搭配 Volar 插件（请禁用 Vetur）。
